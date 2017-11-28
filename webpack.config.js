@@ -4,6 +4,11 @@ module.exports = {
 		path: __dirname + '/build',
 		filename: 'bundle.js'
 	},
+	entry: ['./app/reactindex.js'],
+	output: {
+		path: __dirname + '/build',
+		filename: 'reactbundle.js'
+	},
 	module: {
 	    loaders: [
 			{
