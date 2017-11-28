@@ -76,5 +76,12 @@ module.exports = __webpack_require__(1);
 
 console.log('Hello World! (from webpack)');
 
+let a = 2;
+
+{
+	let a = 3;
+	console.log("a = ", 3);
+}
+
 /***/ })
 /******/ ]);
